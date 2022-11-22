@@ -1,1 +1,20 @@
 /* write your override styles here */
+"err": {
+    "message": "You should have at least 300 bytes worth of updates to css/cleanup.css: expected 38 to be above 300",
+    "showDiff": true,
+    "actual": "38",
+    "expected": "300",
+    "stack": "AssertionError: You should have at least 300 bytes worth of updates to css/cleanup.css: expected 38 to be above 300\n    at Context.<anonymous> (test/index.test.js:30:39)\n    at processImmediate (node:internal/timers:466:21)",
+    "multiple": [
+      {
+        "name": "AssertionError",
+        "message": "You should have at least 300 bytes worth of updates to css/cleanup.css: expected 38 to be above 300",
+        "showDiff": true,
+        "actual": "38",
+        "expected": "300",
+        "multiple": "AssertionError: You should have at least 300 bytes worth of updates to css/cleanup.css: expected 38 to be above 300",
+        "stack": "AssertionError: You should have at least 300 bytes worth of updates to css/cleanup.css: expected 38 to be above 300\n    at Context.<anonymous> (test/index.test.js:30:39)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    ]
+  }
+},
